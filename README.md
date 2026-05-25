@@ -19,6 +19,7 @@ An AI-powered disaster management dashboard that predicts flood risk across Indi
 - Plotly
 - Open-Meteo API
 
+<img width="1918" height="906" alt="image" src="https://github.com/user-attachments/assets/be91a5e9-9b8a-4dc6-9e31-b7d13f996ab8" />
   <img width="1918" height="907" alt="image" src="https://github.com/user-attachments/assets/cbad6033-58fc-4d4a-a2f1-48439a246200" />
 
 
