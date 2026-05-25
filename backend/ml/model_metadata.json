@@ -1,0 +1,37 @@
+{
+  "model_type": "RandomForestClassifier",
+  "features": [
+    "YEAR",
+    "SUBDIVISION_CODE",
+    "ANNUAL",
+    "MONSOON_TOTAL",
+    "PRE_MONSOON",
+    "POST_MONSOON",
+    "WINTER",
+    "MONSOON_FRACTION",
+    "PEAK_MONTH_RAIN",
+    "HIGH_RAIN_MONTHS",
+    "ROLLING_5Y_MEAN",
+    "RAINFALL_ANOMALY",
+    "JUN",
+    "JUL",
+    "AUG",
+    "SEP"
+  ],
+  "target": "RISK_LABEL",
+  "risk_labels": {
+    "0": "Low",
+    "1": "Medium",
+    "2": "High"
+  },
+  "low_threshold": 1000,
+  "high_threshold": 1800,
+  "test_accuracy": 1.0,
+  "test_f1_weighted": 1.0,
+  "cv_mean_f1": 0.9997571067818931,
+  "cv_std_f1": 0.00048578643621355333,
+  "train_samples": 3292,
+  "test_samples": 824,
+  "trained_at": "2026-04-11T15:51:21.265148",
+  "retrained": true
+}
