@@ -27,6 +27,6 @@ cd backend
 pip install -r requirements.txt
 python -m uvicorn main:app --reload
 
-### Frontend
+Cd Frontend
 pip install -r requirements.txt
 python -m streamlit run app.py
